@@ -1,12 +1,31 @@
 body {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 main {
-  padding-left: 90px;
-  padding-right: 90px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture {
+    width: 300px;
+}
+
+.neb1, .neb2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.neb1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.neb2 {
+    float: right;
+    margin-left: 10px;
 }
